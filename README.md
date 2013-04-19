@@ -1,7 +1,7 @@
 hijack
 ======
 
-Inject arbitrary Javascript into the ExpressionEngine control panel.
+Inject arbitrary Javascript into the ExpressionEngine Control Panel.
 
 Extension Requirements
 ----------------------
@@ -27,7 +27,7 @@ Or maybe you'd just like to see yourself in a different light:
 
 2. Wrap Javascript content in jQuery document ready function:
 
-The default is `Yes`, and you *probably* don't want to change it.
+The default is `Yes`, and you probably don't want to change it.
 
 Extension Hooks
 ---------------
