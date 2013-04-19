@@ -3,14 +3,14 @@ hijack
 
 Inject arbitrary Javascript into the ExpressionEngine control panel.
 
-_Hook_ `cp_js_end`
+**Hook** `cp_js_end`
 
 Settings
 --------
 
 1. Javascript content to be injected into every page of the Control Panel:
 
-For example, supposing you'd like to hide the `URL Title` field in the `Publish : Edit Entry` page:
+For example, supposing you'd like to hide the `URL Title` field in the `Edit Entry` page:
 
     $('form#publishForm div#hold_field_url_title').hide();
 
