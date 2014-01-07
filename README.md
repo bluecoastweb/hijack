@@ -3,15 +3,13 @@ hijack
 
 Inject arbitrary Javascript into the ExpressionEngine Control Panel.
 
-Extension Requirements
-----------------------
+### Extension Requirements
 
 jQuery for the Control Panel
 
-Extension Settings
-------------------
+### Extension Settings
 
-### Javascript content to be injected into every page of the Control Panel ###
+#### Javascript content to be injected into every page of the Control Panel ###
 
 For example, supposing you'd like to hide the `URL Title` field in the `Edit Entry` page:
 
@@ -25,11 +23,10 @@ Or maybe you'd just like to see yourself in a different light:
 
     $('div#activeUser a.userName').html('Your Eminence');
 
-### Wrap Javascript content in jQuery document ready function ###
+#### Wrap Javascript content in jQuery document ready function ###
 
 The default is `Yes`, and you probably don't want to change it.
 
-Extension Hooks
----------------
+### Extension Hooks
 
-`cp_js_end`
+    cp_js_end
