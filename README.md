@@ -30,3 +30,9 @@ The default is `Yes`, and you probably don't want to change it.
 ### Extension Hooks
 
     cp_js_end
+    
+#### Priority
+
+The default priority of 100 is low enough to ensure that it will probably run after any other extensions on the `cp_js_end` hook. But if in doubt check the `exp_extensions` table and adjust the value as needed, eg:
+
+    'priority'  => 25,
