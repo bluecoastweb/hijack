@@ -2,7 +2,7 @@
 
 class Hijack_ext {
     public $name           = 'Hijack';
-    public $version        = '1.0';
+    public $version        = '1.1';
     public $description    = 'Inject Javascript into the Control Panel.';
     public $settings_exist = 'y';
     public $docs_url       = 'http://www.bluecoastweb.com/';
@@ -27,7 +27,7 @@ class Hijack_ext {
             'method'    => 'cp_js_end',
             'hook'      => 'cp_js_end',
             'settings'  => serialize($this->settings),
-            'priority'  => 10,
+            'priority'  => 100,
             'version'   => $this->version,
             'enabled'   => 'y'
         );
